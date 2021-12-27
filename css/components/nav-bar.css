@@ -4,9 +4,9 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
-  box-sizing: border-box; /* padding 크기에 상관없이 box의 너비를 그대로 유지하라 */
+  box-sizing: border-box;
   border-top: 1px solid rgba(125, 125, 125, 0.3);
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 0px 0px 40px 40px;
 }
 
 .nav__list {
