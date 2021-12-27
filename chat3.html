@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Catcato Talk</title>
+  </head>
+  <body>
+    <div class="screen" id="chat-screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+            <span>KT</span>
+            <span>12:27</span>
+            <!-- To Do: Wifi Icon -->
+        </div>
+        <div class="status-bar__column">
+            <span><i class="fas fa-wifi"></i></span>
+            <span><i class="fas fa-signal"></i></span>
+            <span>73%</span>
+            <span><i class="fas fa-battery-three-quarters fa-lg"></i></i></span>
+            <div class="screen-cameras">
+              <div class="screen-cameras__camera">
+                  <div class="camera-lens"></div>
+              </div>
+              <div class="screen-cameras__camera">
+                  <div class="camera-lens"></div>
+              </div>
+            </div>
+            <!-- Battery Icon -->
+            <!-- Lightning Icon -->
+        </div>
+      </div>
+  
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="chats.html">
+            <i class="fas fa-angle-left fa-2x"></i>
+          </a>
+        </div>
+        <div class="alt-header__column">
+          <span class="alt-header__title">Stepan</span>
+        </div>
+        <div class="alt-header__column">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+      </header>
+  
+      <main class="main-screen main-chat">
+        <div class="chat__timestamp">Sunday, December 26, 2021</div>
+        <div class="message-row">
+          <img src="image/cat1.png" />
+          <div class="message-row__content">
+            <span class="message__author">Stepan</span>
+            <div class="message__info">
+              <span class="message__bubble">Hello?</span>
+              <span class="message__time">00:14</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="image/cat1.png" />
+          <div class="message-row__content">
+            <span class="message__author">Stepan</span>
+            <div class="message__info">
+              <span class="message__bubble">Christmas has passed, but we are still having a party.</span>
+              <span class="message__time">00:14</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="image/cat1.png" />
+          <div class="message-row__content">
+            <span class="message__author">Stepan</span>
+            <div class="message__info">
+              <span class="message__bubble">Do you join me?</span>
+              <span class="message__time">00:14</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">Thank you. How did you spend Christmas?</span>
+              <span class="message__time">00:16</span>
+            </div>
+          </div>
+        </div>
+        <div class="message-row">
+          <img src="image/cat1.png" />
+          <div class="message-row__content">
+            <span class="message__author">Stepan</span>
+            <div class="message__info">
+              <span class="message__bubble">I decorated the house and prepared costums for Christmas. And the party started at 6 p.m.</span>
+              <span class="message__time">00:18</span>
+            </div>
+          </div>
+        </div>
+      </main>
+  
+      <form class="reply">
+        <div class="reply__column">
+          <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="far fa-smile-wink fa-lg"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div id="no-mobile">
+      <span>Please reduce the screen size.</span>
+    </div>
+  </body>
+</html>

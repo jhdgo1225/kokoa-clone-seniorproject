@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Catcato Talk</title>
+  </head>
+  <body>
+    <div class="screen" id="setting-screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>KT</span>
+          <span>12:27</span>
+          <!-- To Do: Wifi Icon -->
+        </div>
+        <div class="status-bar__column">
+          <span><i class="fas fa-wifi"></i></span>
+          <span><i class="fas fa-signal"></i></span>
+          <span>73%</span>
+          <span><i class="fas fa-battery-three-quarters fa-lg"></i></i></span>
+          <div class="screen-cameras">
+            <div class="screen-cameras__camera">
+              <div class="camera-lens"></div>
+            </div>
+            <div class="screen-cameras__camera">
+              <div class="camera-lens"></div>
+            </div>
+          </div>
+          <!-- Battery Icon -->
+          <!-- Lightning Icon -->
+        </div>
+      </div>
+
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="chats.html">
+            <i class="fas fa-angle-left fa-2x"></i>
+          </a>
+        </div>
+        <div class="alt-header__column">
+          <span class="alt-header__title">Settings</span>
+        </div>
+        <div class="alt-header__column">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+      </header>
+
+      <main class="main-screen more-screen">
+        <ul class="settings-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-bullhorn"></i>
+              <span>Notices</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-flask"></i>
+              <span>Catcato Lab</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-info-circle"></i>
+              <span>Version</span>
+            </div>
+            <div class="settings__setting-column">Latest Version</div>
+          </li>
+        </ul>
+        <ul class="settings-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-lock"></i>
+              <span>Private/Security</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-bell"></i>
+              <span>Alarm</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-paw"></i>
+              <span>Cats</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-comments"></i>
+              <span>Chatting</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-users"></i>
+              <span>Multiprofile</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-desktop"></i>
+              <span>Screen</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-phone-alt"></i>
+              <span>Phone</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-ellipsis-h"></i>
+              <span>et cetera</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+        </ul>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="cats.html"
+              ><i class="far fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+              <i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <span class="config-notification"></span>
+              <i class="fas fa-ellipsis-h fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="no-mobile">
+      <span>Please reduce the screen size.</span>
+    </div>
+  </body>
+</html>

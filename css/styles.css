@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* component */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/badge.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* screen */
+@import "screen/screen.css";
+@import "screen/login.css";
+@import "screen/cats.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/chat.css";
+@import "screen/settings.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,128 @@
+.welcome-header {
+  margin: 130px 0px 45px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 60px;
+  font-size: 50px;
+}
+.welcome-header__text {
+  width: 80%;
+  opacity: 0.7;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rainbowBorder {
+  0% {
+    border: 2px solid white;
+  }
+  11% {
+    border: 2px solid tomato;
+  }
+  22% {
+    border: 2px solid orange;
+  }
+  33% {
+    border: 2px solid yellow;
+  }
+  44% {
+    border: 2px solid lightgreen;
+  }
+  55% {
+    border: 2px solid turquoise;
+  }
+  66% {
+    border: 2px solid rgb(102, 102, 233);
+  }
+  77% {
+    border: 2px solid purple;
+  }
+  88% {
+    border: 2px solid black;
+  }
+  100% {
+    border: 2px solid white;
+  }
+}
+
+.login-form__text {
+  background-color: none;
+  font-size: 14px;
+  width: 75%;
+  height: 58px;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+
+.login-form__text:focus {
+  animation: rainbowBorder 3s linear infinite;
+}
+
+@keyframes rainbowBg {
+  0% {
+    background-color: white;
+  }
+  11% {
+    background-color: tomato;
+  }
+  22% {
+    background-color: orange;
+  }
+  33% {
+    background-color: yellow;
+  }
+  44% {
+    background-color: lightgreen;
+  }
+  55% {
+    background-color: turquoise;
+  }
+  66% {
+    background-color: rgb(102, 102, 233);
+    color: white;
+  }
+  77% {
+    background-color: purple;
+    color: white;
+  }
+  88% {
+    background-color: black;
+    color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.login-form__btn {
+  cursor: pointer;
+  width: 45%;
+  height: 55px;
+  background-color: white;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.login-form__btn:hover {
+  animation: rainbowBg 3s linear infinite;
+}
+
+.login-form a {
+  font-size: 12px;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.7;
+  margin-top: 20px;
+}

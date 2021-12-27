@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Catcato Talk</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>SKT</span>
+          <span>12:27</span>
+          <!-- To Do: Wifi Icon -->
+        </div>
+        <div class="status-bar__column">
+          <span><i class="fas fa-wifi"></i></span>
+          <span><i class="fas fa-signal"></i></span>
+          <span>73%</span>
+          <span><i class="fas fa-battery-three-quarters fa-lg"></i></i></span>
+          <div class="screen-cameras">
+            <div class="screen-cameras__camera">
+              <div class="camera-lens"></div>
+            </div>
+            <div class="screen-cameras__camera">
+              <div class="camera-lens"></div>
+            </div>
+          </div>
+          <!-- Battery Icon -->
+          <!-- Lightning Icon -->
+        </div>
+      </div>
+
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">
+          Catcat<i class="fas fa-paw fa-xs"></i><br> 
+          Talk
+        </h1>
+        <p class="welcome-header__text">
+          If you have a Kokoa Account,<br>
+          log in with your email or phone number.
+        </p>
+      </header>
+
+      <form action="cats.html" method="get" class="login-form">
+        <input required class="login-form__text"
+          name="username"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input required class="login-form__text" name="password" type="password" placeholder="Password" minlength="10" />
+        <input class="login-form__btn" type="submit" value="Log in" />
+        <input class="login-form__btn" type="submit" value="Sign up" />
+        <a href="#">Find Kokoa Account or Password</a>
+      </form>
+    </div>
+    <div id="no-mobile">
+      <span>Please reduce the screen size.</span>
+    </div>
+  </body>
+</html>

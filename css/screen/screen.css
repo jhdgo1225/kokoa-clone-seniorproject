@@ -1,0 +1,68 @@
+.screen {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ddddfc;
+  width: 400px;
+  height: 100vh;
+  border-radius: 40px;
+  position: relative;
+  box-shadow: 0 19px 38px rgba(227, 226, 235, 1),
+    0 15px 12px rgba(227, 226, 235, 1);
+}
+
+.screen-cameras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 70px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+
+.screen-cameras__camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 15px;
+  height: 15px;
+  border-radius: 7px;
+}
+
+.camera-lens {
+  background-color: rgb(44, 4, 4);
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+#chat-screen {
+  background-color: #abc1d1;
+}
+
+#setting-screen {
+  background-color: white;
+}
+
+#chat-screen .alt-header,
+#setting-screen .alt-header {
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#chat-screen .status-bar,
+#setting-screen .alt-header {
+  z-index: 2;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  background-color: #abc1d1;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Catcato Talk</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>KT</span>
+          <span>12:27</span>
+          <!-- To Do: Wifi Icon -->
+        </div>
+        <div class="status-bar__column">
+          <span><i class="fas fa-wifi"></i></span>
+          <span><i class="fas fa-signal"></i></span>
+          <span>73%</span>
+          <span><i class="fas fa-battery-three-quarters fa-lg"></i></i></span>
+          <div class="screen-cameras">
+            <div class="screen-cameras__camera">
+              <div class="camera-lens"></div>
+            </div>
+            <div class="screen-cameras__camera">
+              <div class="camera-lens"></div>
+            </div>
+          </div>
+          <!-- Battery Icon -->
+          <!-- Lightning Icon -->
+        </div>
+      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">
+          <i class="fas fa-cat"></i>Chats
+        </h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="far fa-comment-dots fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span class="screen-header__icons-conf">
+            <a href="settings.html">
+              <div class="screen-header__notifi"></div>
+              <i class="fas fa-cog fa-lg"></i>
+            </a>
+          </span>
+        </div>
+      </header>
+
+      <a id="cats-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friend' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
+
+      <main class="main-screen chats-screen">
+        <a href="chat1.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="image/cat2.png"
+                class="user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Urgly</h4>
+                <h6 class="user-component__subtitle">
+                  I'm so ugly...;;
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">12:32</span>
+              <div class="badge">1</div>
+            </div>
+          </div>
+        </a>
+        <a href="chat2.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <div class="user-component__group">
+                <img src="image/cat3.png" />
+                <img src="image/cat4.png" />
+                <img src="image/cat5.png" />
+              </div>
+              <div class="user-component__text">
+                <h4 class="user-component__title">Cats</h4>
+                <h6 class="user-component__subtitle">
+                  Work for our now
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">18:24</span>
+              <div class="badge">3</div>
+            </div>
+          </div>
+        </a>
+        <a href="chat3.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="image/cat1.png"
+                class="user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Stepan</h4>
+                <h6 class="user-component__subtitle">
+                  Do you join me?
+                </h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">00:14</span>
+              <div class="badge">3</div>
+            </div>
+          </div>
+        </a>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="cats.html"
+              ><i class="far fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">1</span>
+              <i class="fas fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+              <i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <span class="config-notification"></span>
+              <i class="fas fa-ellipsis-h fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="no-mobile">
+      <span>Please reduce the screen size.</span>
+    </div>
+  </body>
+</html>
